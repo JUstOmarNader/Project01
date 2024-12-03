@@ -11,7 +11,7 @@
 li, a, button,p{
     font-family:"Montserrat" ,sans-serif;
     font-weight: 400;
-    font-size: 15;
+    font-size: 5;
     text-decoration: none;
     color: rgb(247, 250, 253);
 }
@@ -20,12 +20,14 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    border-radius: 50px;
+    border-radius: 30px;
     border-style: groove;
+    border-color: rgb(17, 17, 180);
 }
 
 .navbar {
     list-style: none;
+    
     
 }
 .navbar li {
@@ -34,13 +36,15 @@ header{
     margin: 25px;
     
     
+    
 }
 
 .navbar li a {
     transition: all 0.3s ease 0s;
-    background-color: rgb(83, 85, 90);
+    background-color: rgb(88, 83, 160);
     border-radius: 10px;
     border-style: groove;
+    border-color:rgb(33, 33, 127) ;
     
     
     
@@ -51,25 +55,25 @@ header{
 .navbar li a:hover {
     background-color: rgb(37, 39, 156);
     padding: 10px;
-    
-
 }
 
 button {
     padding: 9px 25px;
-    background-color: rgb(83, 85, 90);
+    background-color: rgb(88, 83, 160);
     border-radius: 30px;
     border: none;
     transition: all 0.3s ease 0s;
     cursor: pointer;
     border-style: groove;
+    border-color: blue;
 }
 button:hover {
     background-color: rgb(37, 39, 156);
+    padding: 25px;
 }
 
 h1{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     cursor: pointer;
 }
 
@@ -81,6 +85,10 @@ h1{
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 20px;
+    border-color: rgb(25, 25, 150);
+    border-style: groove;
+    font-size: 20px;
 }
 
 .hero {
@@ -90,7 +98,7 @@ h1{
     float: left;
     width: 50%;
     margin: 0;
-    font-size: 30px;
+    font-size: 15px;
     padding: 50px;
 }
 .hero img {
@@ -99,4 +107,7 @@ h1{
     height: auto;
     border-radius: 100px;
     padding: 50px;
+}
+.footer {
+    text-align: center;
 }
