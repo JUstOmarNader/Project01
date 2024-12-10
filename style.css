@@ -1,202 +1,182 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
-    background-color: #020418;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0px;
-    
-    
+  background-color: #020418;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
 }
 
-li, a, button,p,h2{
-    font-family:"Montserrat" ,sans-serif;
-    font-weight: 400;
-    font-size: 30;
-    text-decoration: none;
-    color: rgb(247, 250, 253);
-    line-height: 1.5;
+li,
+a,
+button,
+p,
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 30;
+  text-decoration: none;
+  color: rgb(247, 250, 253);
+  line-height: 1.5;
 }
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-    border-radius: 30px;
-    border-bottom: 5px solid;
-    border-color: rgb(38, 38, 160);
-    
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  border-radius: 30px;
+  border-bottom: 5px solid;
+  border-color: rgb(38, 38, 160);
 }
 
 .navbar {
-    list-style: none;
-    
-    
+  list-style: none;
 }
 .navbar li {
-    display: inline-block;
-    padding: 9px 25px;
-    margin: 25px;
-    
-    
-    
+  display: inline-block;
+  padding: 9px 25px;
+  margin: 25px;
 }
 
 .navbar li a {
-    transition: all 0.3s ease 0s;
-    background-color: rgb(88, 83, 160);
-    border-radius: 15px;
-    border-color:rgb(33, 33, 127) ;
-    padding: 5px 15px;
-    
-    
-    
-    
-    
+  transition: all 0.3s ease 0s;
+  background-color: rgb(88, 83, 160);
+  border-radius: 15px;
+  border-color: rgb(33, 33, 127);
+  padding: 5px 15px;
 }
 
 .navbar li a:hover {
-    background-color: rgb(37, 39, 156);
-    padding: 20px;
-    
-
+  background-color: rgb(37, 39, 156);
+  padding: 20px;
 }
 
 button {
-    padding: 9px 25px;
-    background-color: rgb(88, 83, 160);
-    border-radius: 30px;
-    border: none;
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
+  padding: 9px 25px;
+  background-color: rgb(88, 83, 160);
+  border-radius: 30px;
+  border: none;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
 
-    border-color: blue;
+  border-color: blue;
 }
 button:hover {
-    background-color: rgb(37, 39, 156);
-    padding: 25px;
+  background-color: rgb(37, 39, 156);
+  padding: 25px;
 }
 
-h1{
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    font-weight: 200;
-    font-size: 40px;
+h1 {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-weight: 200;
+  font-size: 40px;
 }
 
 .slogan {
-    text-align: center;
-    padding: 70px;
-    margin: 10px;
-    background-image: url("images/cybersecurity_1920x1080.jpg");
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px;
-    
-    
-    font-size: 40px;
-    color: antiquewhite;
-    
-}
+  text-align: center;
+  padding: 70px;
+  margin: 10px;
+  background-image: url("images/cybersecurity_1920x1080.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
 
+  font-size: 40px;
+  color: antiquewhite;
+}
 
 .hero {
-    overflow: hidden;
+  overflow: hidden;
 }
 .hero p {
-    float: left;
-    width: 50%;
-    margin: 0;
-    font-size: 20px;
-    padding: 70px;
+  float: left;
+  width: 50%;
+  margin: 0;
+  font-size: 20px;
+  padding: 70px;
 }
 .hero img {
-    float: right;
-    width: 50%;
-    height: auto;
-    border-radius: 100px;
-    padding: 50px;
+  float: right;
+  width: 50%;
+  height: auto;
+  border-radius: 100px;
+  padding: 50px;
 }
 .footer {
-    text-align: center;
+  text-align: center;
 }
 
 .what {
-    text-align: center;
-    padding: 30px;
+  text-align: center;
+  padding: 30px;
 }
 span {
-    color: rgb(36, 47, 214);
+  color: rgb(36, 47, 214);
 }
 .para {
-    font-size: 25px;
-    margin: 30px;
-    
+  font-size: 25px;
+  margin: 30px;
 }
-
 
 .services-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns */
-    gap: 400px; /* Space between items */
-    max-width: 500px; /* Optional: Set a max width for the grid */
-    margin: 50px 250px; /* Center the grid horizontally */
-  }
-.services-grid h2 {
-    font-size: 20px;
-    padding: 15px;
-    background-color: rgb(88, 83, 160);
-    border-radius: 25px;
-    margin: 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 40px; /* Space between items */
+  margin: 50px 250px; /* Center the grid horizontally */
 }
-  
-  .item {
-    text-align: center; /* Center align content inside each item */
-  }
-  
-  .item img {
-    width: 230px; /* Make images responsive */
-    height: 275px; /* Preserve aspect ratio */
-    border-radius: 20px; /* Optional: Add rounded corners */
-    background-color: rgb(19, 19, 131);
-    
-    
-  }
-  
-  .item p {
-    margin-top: 25px; /* Add space between image and paragraph */
-    font-size: 20px; /* Adjust font size */
-    color: #ffffff; /* Set text color */
-    font-family:"Montserrat" ,sans-serif;
-    font-weight: 400;
-    width: 300px;
-    
-  }
+.services-grid h2 {
+  font-size: 20px;
+  padding: 15px;
+  background-color: rgb(88, 83, 160);
+  border-radius: 25px;
+  margin: 15px;
+}
+
+.item {
+  text-align: center; /* Center align content inside each item */
+}
+
+.item img {
+  width: 230px; /* Make images responsive */
+  height: 275px; /* Preserve aspect ratio */
+  border-radius: 20px; /* Optional: Add rounded corners */
+  background-color: rgb(19, 19, 131);
+}
+
+.item p {
+  margin-top: 25px; /* Add space between image and paragraph */
+  font-size: 20px; /* Adjust font size */
+  color: #ffffff; /* Set text color */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
 
 form {
-    background-color: rgb(88, 83, 160);
-    width: 70%;
-    text-align: center;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 25px;
-    color: #fdfdfd;
+  background-color: rgb(88, 83, 160);
+  width: 70%;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 25px;
+  color: #fdfdfd;
 }
 
-input, textarea {
-    width: 50%;
-    margin: 10px 0;
-    font-size: 18px;
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-    color: #ffffff;
+input,
+textarea {
+  width: 50%;
+  margin: 10px 0;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
 }
-input[type=submit]{
-    width: 20%;
-    background-color: #171717;
-    color: aliceblue;
-    font-size: 20px;
-    border-radius: 8px;
-    cursor: pointer;
+input[type="submit"] {
+  width: 20%;
+  background-color: #171717;
+  color: aliceblue;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
 }
