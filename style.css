@@ -151,7 +151,9 @@ span {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
-
+.item button {
+  margin: 30px;
+}
 form {
   background-color: rgb(88, 83, 160);
   width: 70%;
